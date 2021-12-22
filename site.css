@@ -1,0 +1,78 @@
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: auto;
+    
+}
+ .title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 43px;
+    color: rgb(143, 143, 143);
+}
+.list{
+    line-height: 30px;
+    text-decoration-color: rgb(255, 255, 255);
+    background: rgb(252, 204, 72);
+    margin-top: auto;
+    text-align: center;
+    
+    
+}
+.list li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    
+}
+.list li a{
+    display: inline-block;
+    width: 150px;
+    color: rgb(255, 255, 255);
+
+}
+.list li a:hover{
+    text-decoration: transparent;
+   
+}
+.left{
+    display: inline-block;
+    width: 20%;
+}
+.rating {
+    padding: 0;
+    margin-left: 0px;
+    margin-top: -16px;
+   }
+.left li{
+    font-size: 15px;
+    font-family: 'Amatic SC', cursive;
+ font-family: 'Balsamiq Sans', cursive;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0px;
+    background-color: rgb(252, 204, 72);
+    list-style: none;
+    
+}
+.left li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none
+}
+.left li a:hover{
+    cursor: pointer;
+    color: midnightblue;
+}
+.right{
+    vertical-align: top;
+    display: inline-block;
+    width: calc(80% - 4px);
+}
+footer{
+    text-align: center;
+    background-color: rgb(252, 204, 72);
+}
